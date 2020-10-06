@@ -42,5 +42,13 @@ public class Main {
         // result = result - 2;
         result -= 2; // 10 - 2 = 8
         System.out.println("10 - 2 = " + result);
+
+        boolean isAlien = false;
+        if (isAlien == false) {// If you add ";" then you're no longer using conditional logic
+            // Therefore, it will still print, "It is not an alien"
+            System.out.println("It is not an alien!");
+            System.out.println("And I am scared of aliens");
+        }
+
     }
 }
