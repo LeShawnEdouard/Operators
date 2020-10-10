@@ -55,11 +55,15 @@ public class Main {
             System.out.println("You got the high score!");
         }
 
-        int secondTopScore = 60;
+        int secondTopScore = 95;
         if ((topScore > secondTopScore) && (topScore < 100)) { // Called "Logical AND Operator"
             // ^ You can add "()" around your expressions/conditions to make
             // it easier to read. Still it will produce same output.
             System.out.println("Greater than second top score and less than 100");
+        }
+
+        if ((topScore > 90) || (secondTopScore <= 90)) {
+            System.out.println("Either or both of the conditions are true");
         }
 
     }
