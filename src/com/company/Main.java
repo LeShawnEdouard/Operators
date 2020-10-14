@@ -72,9 +72,18 @@ public class Main {
         }
 
         boolean isCar = false;
-        if (isCar == true) {
+        if (isCar) { // You can also use (!isCar) which checks for the alternative value
+            // you can use (isCar) to check if set to false
             System.out.println("This is not supposed to happen");
         }
 
+        isCar = true;
+        boolean wasCar = isCar ? true : false;
+        if (wasCar) {
+            System.out.println("wasCar is true");
+        }
+
+
     }
 }
+ 
