@@ -1,6 +1,6 @@
 package com.company;
 
-public class Main {
+public class Operators {
 
     public static void main(String[] args) {
         int result = 1 + 2; // 1 + 2 + 3
@@ -78,10 +78,26 @@ public class Main {
         }
 
         isCar = true;
-        boolean wasCar = isCar ? true : false;
+        boolean wasCar = isCar ? true : false; // example of a ternary operator which consist of three operands
         if (wasCar) {
             System.out.println("wasCar is true");
         }
+
+        double firstNum = 20.00;
+        double secondNum = 80.00;
+
+        double sumOfBothNum = ((firstNum + secondNum) * 100.00);
+        System.out.println("SumOfBothNum = " + sumOfBothNum);
+        double remainder = sumOfBothNum % 40.00;
+        System.out.println("The remainder + " + remainder);
+
+        boolean isSum = (remainder == 0) ? true : false;
+        System.out.println("isSum = " + isSum);
+        if (!isSum) {
+            System.out.println("Got some remainder");
+        }
+
+
 
 
     }
